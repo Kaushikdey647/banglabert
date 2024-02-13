@@ -1,5 +1,75 @@
-sentencepiece != 0.1.92
-protobuf
-datasets==1.11.0
+absl-py==2.1.0
+accelerate==0.26.1
+aiohttp==3.9.3
+aiosignal==1.3.1
+attrs==23.2.0
+cachetools==5.3.2
+certifi==2024.2.2
+cffi @ file:///croot/cffi_1700254295673/work
+charset-normalizer==3.3.2
+cloud-tpu-client==0.10
+datasets==2.16.1
+dill==0.3.7
+emoji==1.4.2
+filelock @ file:///croot/filelock_1700591183607/work
+frozenlist==1.4.1
+fsspec @ file:///croot/fsspec_1701286474621/work
+ftfy==6.0.3
+gmpy2 @ file:///work/ci_py311/gmpy2_1676839849213/work
+google-api-core==1.34.0
+google-api-python-client==1.8.0
+google-auth==2.27.0
+google-auth-httplib2==0.2.0
+googleapis-common-protos==1.62.0
+httplib2==0.22.0
+huggingface-hub==0.20.3
+idna==3.6
+Jinja2 @ file:///croot/jinja2_1706733616596/work
+joblib==1.3.2
+MarkupSafe @ file:///croot/markupsafe_1704205993651/work
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+mpmath @ file:///croot/mpmath_1690848262763/work
+multidict==6.0.5
+multiprocess==0.70.15
+networkx @ file:///croot/networkx_1690561992265/work
+normalizer @ git+https://github.com/csebuetnlp/normalizer@d405944dde5ceeacb7c2fd3245ae2a9dea5f35c9
+numpy @ file:///croot/numpy_and_numpy_base_1704311704800/work/dist/numpy-1.26.3-cp311-cp311-linux_x86_64.whl#sha256=10a078151ecec16bafb535f7487635217625fa06536dec8509e514648c78d626
+oauth2client==4.1.3
+packaging==23.2
+pandas==2.2.0
+protobuf==3.20.3
+psutil==5.9.8
+pyarrow==15.0.0
+pyarrow-hotfix==0.6
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyparsing==3.1.1
+python-dateutil==2.8.2
+pytz==2024.1
+PyYAML==6.0.1
+regex==2023.12.25
+requests==2.31.0
+rsa==4.9
+safetensors==0.4.2
+scikit-learn==1.4.0
+scipy==1.12.0
+sentencepiece==0.1.99
 seqeval==1.2.2
-git+https://github.com/csebuetnlp/normalizer
+six==1.16.0
+sympy @ file:///croot/sympy_1701397643339/work
+threadpoolctl==3.2.0
+tokenizers==0.15.1
+torch @ file:///croot/pytorch-select_1700158693612/work
+torch-xla==2.2.0
+tqdm==4.66.1
+transformers @ file:///mnt/d/btp/banglabert/transformers
+typing_extensions @ file:///croot/typing_extensions_1705599297034/work
+tzdata==2023.4
+uritemplate==3.0.1
+urllib3==2.2.0
+wcwidth==0.2.13
+xxhash==3.4.1
+yarl==1.9.4

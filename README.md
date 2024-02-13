@@ -77,7 +77,16 @@ To use the pretrained model for finetuning / inference on different downstream t
 
 
 ## Benchmarks
- 
+
+* Evaluation of banglabert on the current framework
+```json
+ "metrics": {
+        "total_q_num": 2504,
+        "total_em_count": 765,
+        "total_average_f1": 0.3695199993274279
+    }
+```
+
 * Zero-shot cross-lingual transfer-learning
 
 |     Model          |   Params   |     SC (macro-F1)     |      NLI (accuracy)     |    NER  (micro-F1)   |   QA (EM/F1)   |   BangLUE score |
